@@ -1,5 +1,5 @@
 const data = {
-    products:[
+    products: [
         {
             _id: '1',
             name: 'Computadora Gamer 1',
@@ -9,8 +9,8 @@ const data = {
             countInStock: 10,
             brand: 'Intel',
             rating: 2.5,
-            numReviews:10,
-            description:'Computadora ideal para tu hijo'
+            numReviews: 10,
+            description: 'Computadora ideal para tu hijo'
 
         },
         {
@@ -22,8 +22,8 @@ const data = {
             countInStock: 20,
             brand: 'Intel',
             rating: 4.5,
-            numReviews:10,
-            description:'Computadora ideal para tu hijo'
+            numReviews: 10,
+            description: 'Computadora ideal para tu hijo'
 
         },
         {
@@ -35,8 +35,8 @@ const data = {
             countInStock: 0,
             brand: 'Intel',
             rating: 4.5,
-            numReviews:10,
-            description:'Computadora ideal para tu hijo'
+            numReviews: 10,
+            description: 'Computadora ideal para tu hijo'
 
         },
         {
@@ -48,8 +48,8 @@ const data = {
             countInStock: 19,
             brand: 'Intel',
             rating: 4.5,
-            numReviews:10,
-            description:'Computadora ideal para tu hijo'
+            numReviews: 10,
+            description: 'Computadora ideal para tu hijo'
 
         },
         {
@@ -61,8 +61,8 @@ const data = {
             countInStock: 30,
             brand: 'Intel',
             rating: 4.5,
-            numReviews:10,
-            description:'Computadora ideal para tu hijo'
+            numReviews: 10,
+            description: 'Computadora ideal para tu hijo'
 
         },
         {
@@ -74,11 +74,41 @@ const data = {
             countInStock: 50,
             brand: 'Intel',
             rating: 4.5,
-            numReviews:15,
-            description:'Computadora ideal para tu hijo'
+            numReviews: 15,
+            description: 'Computadora ideal para tu hijo'
 
         },
     ],
+    categories: [
+        {
+            name: 'Computadoras',
+            image: '/images/p1.jpg',
+        },
+        {
+            name: 'Ram',
+            image: '/images/p1.jpg',
+        },
+        {
+            name: 'Monitores',
+            image: '/images/p1.jpg',
+        },
+        {
+            name: 'GPU',
+            image: '/images/p1.jpg',
+        },
+        {
+            name: 'Case',
+            image: '/images/p1.jpg',
+        },
+        {
+            name: 'Procesadores',
+            image: '/images/p1.jpg',
+        },
+        {
+            name: 'Motherboards',
+            image: '/images/p1.jpg',
+        },
+    ]
 };
 
 export default data;

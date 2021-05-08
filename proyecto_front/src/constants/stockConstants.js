@@ -1,0 +1,3 @@
+export const STOCK_ADD_REQUEST = 'STOCK_ADD_REQUEST';
+export const STOCK_ADD_SUCCESS = 'STOCK_ADD_SUCCESS';
+export const STOCK_ADD_FAIL    = 'STOCK_ADD_FAIL';
